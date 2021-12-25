@@ -28,12 +28,13 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 # Inherit from custom vendor
 $(call inherit-product-if-exist, vendor/MiuiCamera/config.mk)
 
-# Inherit some common AwakenOS stuff.
-$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+# Inherit some common aosp stuff.
+$(call inherit-product, vendor/fuse/config/common.mk)
 
-AWAKEN_GAPPS := true
-AWAKEN_MAINTAINER := GaganpreetSingh
-PRODUCT_NAME := awaken_whyred
+WITH_GAPPS := true
+
+# Device identifier
+PRODUCT_NAME := aosp_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
