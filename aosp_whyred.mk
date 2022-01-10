@@ -32,6 +32,7 @@ $(call inherit-product-if-exist, vendor/MiuiCamera/config.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier
+Elixir_MAINTAINER := Gaganpreet Singh
 PRODUCT_NAME := aosp_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
@@ -57,5 +58,6 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 440

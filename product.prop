@@ -1,2 +1,6 @@
+org.elixir.device.name=Redmi Note 5 Pro
+ro.elixir.device.name=Redmi Note 5 Pro
+ro.elixir.device=whyred
 ro.elixir.maintainer=Gaganpreet Singh
-org.elixir.device=Redmi Note 5 Pro
+ro.elixir.maintainer.username=IGaganpreetSingh
+ro.elixir.group.url=t.me/elixir_whyred
