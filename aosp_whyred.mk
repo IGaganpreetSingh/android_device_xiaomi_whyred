@@ -31,6 +31,9 @@ $(call inherit-product-if-exist, vendor/MiuiCamera/config.mk)
 # Inherit some common aosp stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Inherit  Google Hotword Enrollment
+$(call inherit-product, vendor/xiaomi/google/google.mk)
+
 # Device identifier
 Elixir_MAINTAINER := Gaganpreet Singh
 PRODUCT_NAME := aosp_whyred
