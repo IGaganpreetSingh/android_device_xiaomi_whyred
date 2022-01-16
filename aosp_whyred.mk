@@ -33,6 +33,9 @@ $(call inherit-product, vendor/fuse/config/common.mk)
 
 WITH_GAPPS := true
 
+# Inherit  Google Hotword Enrollment
+$(call inherit-product, vendor/xiaomi/google/google.mk)
+
 # Device identifier
 PRODUCT_NAME := aosp_whyred
 PRODUCT_BRAND := Xiaomi
