@@ -1399,17 +1399,18 @@ vendor/lib64/vendor.qti.imsrtpservice@2.0.so|45fd8c212f51977663082b496755911c986
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so|1673fd7b807dcc317cc73c82c2773d5bbb0302df
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so|780288d1d8d79fa16fbbe9bce6edaa4e1424cdb1
 
-# Sensors - from jasmine_sprout 9 PKQ1.180904.001 V10.0.17.0.PDIMIXM release-keys
-vendor/bin/sensors.qti|b30ad4fdc8ecab0f7e3b9ede664dbecf204241b7
+# Sensors - from S62Pro RKQ1.210406.002
+vendor/bin/sensors.qti|04d11860e030b6176056b6e862b9e4ee9ba2289a
 vendor/etc/sensors/sensor_def_qcomdev.conf|33214fd4ac19fc6ba500017095b205251573abea
-vendor/lib/hw/activity_recognition.sdm660.so|9d7160dc8661957de705ce6b79942c41614ff7c8
-vendor/lib/libsensor_reg.so|af6296fe9495b370300634c008c02d356ce38092
-vendor/lib/libsensor1.so|a34ac1e81a8eb93efe434829d74809a5aa307d3c
-vendor/lib/sensors.ssc.so|bee13b2ad7f1ef0d2cf63708fa38ad76877ea287
-vendor/lib64/hw/activity_recognition.sdm660.so|5579e6b9dd041e4d70148247036b97cac15832cd
-vendor/lib64/libsensor_reg.so|fc339a65dafb44a629e6d83c13e8af71c293c53b
-vendor/lib64/libsensor1.so|322bd23852df0a0d6bfebf854e76f0181aa5ca7b
-vendor/lib64/sensors.ssc.so|42577aa881baa287ec037c0e59972ad0e0358b08
+vendor/etc/sensors/hals.conf|bf3677cbfa5ce5735662e8c259cb027969f65c87
+vendor/lib/hw/activity_recognition.sdm660.so|005b4c0d3dfd4c2bd4361b8c8754314a8c4de40d
+vendor/lib/libsensor_reg.so|40a7b8e675352be825806017766b4fed3a3e128d
+vendor/lib/libsensor1.so|0b74f64339245b2bb9e08aa97a78bd8d344463c5
+vendor/lib/sensors.ssc.so|7cbe5294892d5b7a514141f6a902f1d9f1b1ca6a
+vendor/lib64/hw/activity_recognition.sdm660.so|d121abfadb5798cdb5620350b7a35322018dd5bb
+vendor/lib64/libsensor_reg.so|c09110fd11f384040c31b7fd5c2b187aa901168c
+vendor/lib64/libsensor1.so|9438649176e37dfa406f4d4858ad31441ad4c3aa
+vendor/lib64/sensors.ssc.so|6934f0fd9e5e74356d9f18af0cbaa28164e697f6
 
 # Soter - from jasmine-user-10-QKQ1.190910.002-V11.0.4.0.QDIMIXM
 app/SoterService/SoterService.apk|13c54938361c79d484f8750e548415a9a4526b43
