@@ -35,6 +35,7 @@ $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 $(call inherit-product, vendor/xiaomi/google/google.mk)
 
 USE_GAPPS := true
+AWAKEN_BUILD_TYPE := OFFICIAL
 
 PRODUCT_NAME := awaken_whyred
 PRODUCT_BRAND := Xiaomi
@@ -58,3 +59,4 @@ TARGET_SUPPORTS_QUICK_TAP := true
 USE_PIXEL_CHARGER := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 440
+TARGET_SUPPORTS_GOOGLE_RECORDER=true
