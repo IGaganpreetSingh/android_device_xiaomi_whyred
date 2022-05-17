@@ -1056,6 +1056,9 @@
 
     <!-- True if the firmware supports connected MAC randomization -->
     <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
+        
+    <!-- True if the firmware supports p2p MAC randomization -->
+    <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
 
     <!-- Configuration to enable non-default PDP during IWLAN -->
     <bool name="config_feature_iwlan_enabled">true</bool>
